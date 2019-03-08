@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Bigfoot</string>
+    <string name="weekday_display">On Monday after 6PM put out:</string>
+    <string name="weekday">DemoUI</string>
+    <string name="bBin">Blue Bin</string>
+    <string name="gBin">Green Bin</string>
+    <string name="garb">Garbage Bag</string>
+    <string-array name="weekdays">
+        <item>"Monday"</item>
+        <item>"Tuesday"</item>
+        <item>"Wednesday"</item>
+        <item>"Thursday"</item>
+        <item>"Friday"</item>
+    </string-array>
+    <string-array name="recycling_types">
+        <item>"Blue Bin"</item>
+        <item>"Grey Bin"</item>
+    </string-array>
+    <string name="item">Item:</string>
+    <string name="bin">Bin</string>
+    <string name="recycle">RecycleType</string>
+    <string name="desc">Description</string>
+    <string name="search_title">Description</string>
+    <string name="search_hint">search for your item...</string>
+
+</resources>

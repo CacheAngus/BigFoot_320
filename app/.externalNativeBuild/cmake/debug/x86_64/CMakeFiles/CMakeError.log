@@ -1,0 +1,10 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Cache Angus/Documents/albertrepo/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Cache Angus/AppData/Local/Android/Sdk/cmake/3.6.4111459/bin/ninja.exe" "cmTC_8f16f"
+[1/2] Building C object CMakeFiles/cmTC_8f16f.dir/testCCompiler.c.o
+FAILED: C:\Users\CACHEA~1\AppData\Local\Android\Sdk\NDK-BU~1\TOOLCH~1\llvm\prebuilt\WINDOW~1\bin\clang.exe  --target=x86_64-none-linux-android21 --gcc-toolchain="C:/Users/Cache Angus/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64" --sysroot="C:/Users/Cache Angus/AppData/Local/Android/Sdk/ndk-bundle/sysroot"   -isystem C:/Users/Cache Angus/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_8f16f.dir/testCCompiler.c.o   -c "C:\Users\Cache Angus\Documents\albertrepo\app\.externalNativeBuild\cmake\debug\x86_64\CMakeFiles\CMakeTmp\testCCompiler.c"
+clang.exe: error: no such file or directory: 'Angus/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android'
+ninja: build stopped: subcommand failed.
+
+

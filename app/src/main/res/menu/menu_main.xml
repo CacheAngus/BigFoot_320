@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffedd1"
+    tools:context="com.bigfoot.bigfoot.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        />
+    <item
+        android:id="@+id/action_schedule"
+        android:orderInCategory="100"
+        android:title="Schedule"
+        />
+    <item
+        android:id="@+id/action_previous"
+        android:orderInCategory="100"
+        android:title="Previously Scanned"
+        />
+    <item
+        android:id="@+id/action_facts"
+        android:orderInCategory="100"
+        android:title="Add Item"
+        />
+<<<<<<< HEAD
+=======
+    <item android:id="@+id/search"
+        android:title="@string/search_title"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+>>>>>>> 4951d8383fccc27db86c09f5cb8ec1027d6504ae
+
+
+</menu>

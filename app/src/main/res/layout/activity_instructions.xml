@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffedd1"
+<<<<<<< HEAD
+
+    tools:context=".InstructionActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+=======
+    tools:context=".InstructionActivity"
+    >
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:ignore="ContentDescription"
+>>>>>>> 4951d8383fccc27db86c09f5cb8ec1027d6504ae
+        app:srcCompat="@drawable/_recyclelogo"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+<<<<<<< HEAD
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/instructions"/>
+=======
+        android:layout_below="@+id/logo"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/inst1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:layout_below="@+id/inst1"
+        android:id="@+id/inst2"/>
+>>>>>>> 4951d8383fccc27db86c09f5cb8ec1027d6504ae
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+<<<<<<< HEAD
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="104dp"
+        android:text="Next"
+        android:textSize="20dp" />
+=======
+
+        android:layout_below="@+id/inst2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Next"
+        android:textSize="20sp" />
+>>>>>>> 4951d8383fccc27db86c09f5cb8ec1027d6504ae
+
+</RelativeLayout>
